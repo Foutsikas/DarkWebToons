@@ -1,0 +1,20 @@
+{
+
+    "description": "Turns the background color to black.",
+    "manifest_version": 2,
+    "name": "Webtoon-Dark",
+    "version": "1.0",
+    
+    "icons": {
+      "48": "icons/48.png",
+      "96": "icon/96.png"
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["*://*.webtoons.com/en/*"],
+        "js": ["Webtoon-Dark.js"]
+      }
+    ]
+  
+  }
